@@ -4,7 +4,7 @@
 // What is context? Uncomment the best answer.
 
 // var context = "The file which is the execution context of the running code, represented by 'context' keyword."
-// var context = "The object which is the execution context of the running code, represented by 'this' keyword.";
+var context = "The object which is the execution context of the running code, represented by 'this' keyword.";
 // var context = "The function which is the execution context of the running code, represented by 'this' keyword."
 // var context = "The browser window, represented by 'context' keyword."
 // var context = "The html page where the script is running, represented by 'this' keyword."
