@@ -9,22 +9,24 @@
 //return the FIRST callback param invoked. Else, invokesCallbacks 
 //should return the SECOND callback param invoked.
 
-  //Code here
+  function invokesCallbacks(num, cb, cb2){
+    if(num > 10){
+      return cb()
+    } else {
+      return cb2()
+    }
+  }
 
 
 //////////////////PROBLEM 2////////////////////
 
-//Within the function timedGreeting below, create a
-//setTimeout (a native javascript method) 
-//that assigns the result 
-//of invoking the callback parameter 
-//to the variable greeting, after 1 second.
+//Within the function timedGreeting below, create a setTimeout (a native javascript method) that assigns the result of invoking the callback parameter to the variable greeting, after 1 second.
 
   var greeting;
 
   function timedGreeting(callback){
 
-    //Code here
+   setTimeout(function(){greeting = callback()}, 1000)
 
     
   }
